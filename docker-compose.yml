@@ -4,6 +4,6 @@ services:
       context: .
     environment:
       NODE_ENV: development
+      
     ports:
       - 52524:52524
-
