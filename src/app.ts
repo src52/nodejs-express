@@ -3,7 +3,7 @@ const app = express();
 const port = 52524;
 
 app.get('/', (req, res) => {
-    res.json({message: 'Express is running on port 52524!'});
+    res.json({body: `Express is running on port ${port}!`, married: true});
 });
 
 app.listen(port, () => {
